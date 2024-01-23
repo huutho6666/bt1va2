@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baitap2</title>
+    <style>
+        #h2{
+            color: red;
+        }
+        #head{
+            padding: 5px 20px;
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid red;
+        }
+        h1{
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <h1>BẢNG ĐIỂM CỦA EM</h1>
+        <label for="">Semester1:</label>
+        <input type="number" id="S1">
+        <br>
+        <label for="">Semester2:</label>
+        <input type="number" id="S2" >
+        <br>
+        <label for="">Year</label>
+        <select name="" id="year">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+        </select>
+        <br>
+        <span>Summarise</span>
+        <span id="summary"></span>
+        <h2 id="h2"></h2>
+        <button id="ok">Ok</button>
+        <button>Cancel</button>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
